@@ -8,7 +8,6 @@ suite("Extension Tests", function () {
     const originalExecuteCommand = vscode.commands.executeCommand;
 
     vscode.commands.executeCommand = function (command: string) {
-      console.log("execute command by Marco", command);
       calledCommand = command;
       originalExecuteCommand(command);
     } as any;
