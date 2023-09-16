@@ -30,11 +30,13 @@ This is a simple Visual Studio Code extension that adds a command to toggle the 
 
 ## Installation
 
+You can install "Toggle Pin Editor" by following these steps:
+
 1. Launch Visual Studio Code.
 
 2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
 
-3. Search for "Toggle Pin Editor" and install it.
+3. Search for "Toggle Pin Editor" and install it from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=MarcoAntonioMaderaLpez.toggle-pin-editor).
 
 ## Feedback and Contributions
 
