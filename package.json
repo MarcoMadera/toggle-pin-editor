@@ -2,6 +2,14 @@
   "name": "toggle-pin-editor",
   "displayName": "Toggle Pin Editor",
   "description": "A Simple Toggle Pin Keyboard Command",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoMadera/toggle-pin-editor.git"
+  },
+  "author": "Marco Madera <me@marcomadera.com>",
+  "bugs": {
+    "url": "https://github.com/MarcoMadera/toggle-pin-editor/issues"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.82.0"
