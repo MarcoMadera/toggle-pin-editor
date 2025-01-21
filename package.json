@@ -19,14 +19,11 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:extension.togglePinEditor"
-  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "toggle-pin-editor.helloWorld",
+        "command": "togglePinEditor.togglePinEditor",
         "title": "Toggle Pin Editor"
       }
     ]
