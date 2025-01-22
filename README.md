@@ -21,7 +21,7 @@ This is a simple Visual Studio Code extension that adds a command to toggle the 
    [
      {
        "key": "ctrl+p",
-       "command": "extension.togglePinEditor"
+       "command": "togglePinEditor.togglePinEditor"
      }
    ]
    ```
