@@ -20,6 +20,7 @@
     "Other"
   ],
   "main": "./dist/extension.js",
+  "activationEvents": [],
   "contributes": {
     "commands": [
       {
@@ -40,7 +41,7 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "1.96.0",
+    "@types/vscode": "1.82.0",
     "@types/mocha": "10.0.10",
     "@types/node": "22.10.7",
     "@typescript-eslint/eslint-plugin": "^8.21.0",
