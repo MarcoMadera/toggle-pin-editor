@@ -2,6 +2,21 @@
 
 This is a simple Visual Studio Code extension that adds a command to toggle the pinning of editor tabs.
 
+⚠️ **Important Note**: As of VS Code's native features, you can now achieve the same pin/unpin toggle functionality without this extension using the following keyboard shortcut configuration in your `keybindings.json`:
+
+```json
+{
+    "key": "ctrl+p",
+    "command": "workbench.action.unpinEditor",
+    "when": "activeEditorIsPinned"
+},
+{
+    "key": "ctrl+p",
+    "command": "workbench.action.pinEditor",
+    "when": "!activeEditorIsPinned"
+}
+```
+
 ## Features
 
 - Toggle pinning/unpinning of the active editor tab.
